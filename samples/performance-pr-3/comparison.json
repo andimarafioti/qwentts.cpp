@@ -1,0 +1,66 @@
+{
+  "files": [
+    {
+      "file": "after-pr_greedy_customvoice-aiden_chunk4.wav",
+      "sha256": "306e509ed55bbae6c9db4f87a9101806572c0290340391d8f2cae417882968d8",
+      "bytes": 449324,
+      "sr": 24000,
+      "samples": 224640,
+      "duration_s": 9.36,
+      "peak": 0.732452,
+      "rms": 0.08833
+    },
+    {
+      "file": "after-pr_sampled-seed42_customvoice-aiden_chunk4.wav",
+      "sha256": "72b19623e36c4b006bf25555de704068fc77aaa8c256dd831b89cfaba69b29f8",
+      "bytes": 437804,
+      "sr": 24000,
+      "samples": 218880,
+      "duration_s": 9.12,
+      "peak": 0.760773,
+      "rms": 0.121882
+    },
+    {
+      "file": "before-pr_greedy_customvoice-aiden_chunk4.wav",
+      "sha256": "919dbb9ce449bc6a9bbd6f668bd47f1191882cc1e2209570c0c3a46b8288537c",
+      "bytes": 422444,
+      "sr": 24000,
+      "samples": 211200,
+      "duration_s": 8.8,
+      "peak": 0.732452,
+      "rms": 0.079573
+    },
+    {
+      "file": "before-pr_sampled-seed42_customvoice-aiden_chunk4.wav",
+      "sha256": "747647f6a29d05bee7164e0e4e52556e83a26586f98b1fc4d1a0a22246a8c539",
+      "bytes": 391724,
+      "sr": 24000,
+      "samples": 195840,
+      "duration_s": 8.16,
+      "peak": 0.912628,
+      "rms": 0.145256
+    }
+  ],
+  "comparisons": [
+    {
+      "mode": "sampled-seed42",
+      "same_sr": true,
+      "same_samples": false,
+      "duration_before_s": 8.16,
+      "duration_after_s": 9.12,
+      "overlap_rmse": 0.187726,
+      "overlap_max_abs": 1.090088,
+      "byte_identical": false
+    },
+    {
+      "mode": "greedy",
+      "same_sr": true,
+      "same_samples": false,
+      "duration_before_s": 8.8,
+      "duration_after_s": 9.36,
+      "overlap_rmse": 0.106683,
+      "overlap_max_abs": 0.919678,
+      "byte_identical": false
+    }
+  ]
+}

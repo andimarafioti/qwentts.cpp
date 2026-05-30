@@ -1,0 +1,74 @@
+{
+  "text": "Ladies and gentlemen, I have just been informed that this speech is being generated faster than I can speak it. Please remain calm.",
+  "settings": {
+    "text": "Ladies and gentlemen, I have just been informed that this speech is being generated faster than I can speak it. Please remain calm.",
+    "lang": "English",
+    "speaker": "aiden",
+    "instruct": null,
+    "max_new_tokens": 192,
+    "temperature": 0.9,
+    "top_k": 50,
+    "top_p": 1.0,
+    "repetition_penalty": 1.05,
+    "codec_chunk_sec": 0.32,
+    "codec_left_context_sec": 2.0
+  },
+  "samples": [
+    {
+      "label": "before-pr",
+      "mode": "sampled-seed42",
+      "path": "/home/andi/Documents/faster-qwen3-tts/artifacts/qwentts-pr-3-samples/before-pr_sampled-seed42_customvoice-aiden_chunk4.wav",
+      "sample_rate": 24000,
+      "samples": 195840,
+      "duration_s": 8.16,
+      "wall_s": 4.368638195795938,
+      "rtf_audio_over_wall": 1.8678589606831242,
+      "load_s": 1.8223065449856222,
+      "peak": 0.9125996828079224,
+      "rms": 0.14525562709728426,
+      "chunks": 26
+    },
+    {
+      "label": "before-pr",
+      "mode": "greedy",
+      "path": "/home/andi/Documents/faster-qwen3-tts/artifacts/qwentts-pr-3-samples/before-pr_greedy_customvoice-aiden_chunk4.wav",
+      "sample_rate": 24000,
+      "samples": 211200,
+      "duration_s": 8.8,
+      "wall_s": 4.068921317812055,
+      "rtf_audio_over_wall": 2.1627353572744794,
+      "load_s": 1.8223065449856222,
+      "peak": 0.7324239015579224,
+      "rms": 0.07957305863993704,
+      "chunks": 28
+    },
+    {
+      "label": "after-pr",
+      "mode": "sampled-seed42",
+      "path": "/home/andi/Documents/faster-qwen3-tts/artifacts/qwentts-pr-3-samples/after-pr_sampled-seed42_customvoice-aiden_chunk4.wav",
+      "sample_rate": 24000,
+      "samples": 218880,
+      "duration_s": 9.12,
+      "wall_s": 4.296573228901252,
+      "rtf_audio_over_wall": 2.1226217997760566,
+      "load_s": 1.2769942870363593,
+      "peak": 0.7607442140579224,
+      "rms": 0.12188210223676375,
+      "chunks": 29
+    },
+    {
+      "label": "after-pr",
+      "mode": "greedy",
+      "path": "/home/andi/Documents/faster-qwen3-tts/artifacts/qwentts-pr-3-samples/after-pr_greedy_customvoice-aiden_chunk4.wav",
+      "sample_rate": 24000,
+      "samples": 224640,
+      "duration_s": 9.36,
+      "wall_s": 4.320765049895272,
+      "rtf_audio_over_wall": 2.166283029026739,
+      "load_s": 1.2769942870363593,
+      "peak": 0.7324239015579224,
+      "rms": 0.08832979595723392,
+      "chunks": 30
+    }
+  ]
+}
